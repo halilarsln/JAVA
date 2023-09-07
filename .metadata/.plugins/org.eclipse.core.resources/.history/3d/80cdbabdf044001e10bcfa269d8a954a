@@ -1,0 +1,14 @@
+package com.halilarslan;
+//public her yerden erişebilir demek 
+public class Ogrenci {
+
+	public int id; //degişken-field-property
+	
+	public String isim;
+	
+	public String soyisim;
+	
+	public Ogrenci() {
+		System.out.println("Ögrenci sınıfının yapıcı metotu çalıştı.");
+	}
+}

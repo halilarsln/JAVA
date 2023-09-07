@@ -1,0 +1,22 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		//parametreli ve geriye deger döndürmeyen metot tanımlama
+		
+		isimYazdir();
+		topla(17,5);
+
+	}
+	public static topla(int sayi1,int sayi2,) 
+	{
+	    int sonuc = sayi1+sayi2;
+	    System.out.println("Sonuç : " + sonuc);
+	}
+	
+	public static void isimYazdir() 
+	{
+		System.out.println("Enes");
+	}
+
+}

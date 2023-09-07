@@ -1,0 +1,28 @@
+import javax.naming.BinaryRefAddr;
+
+import model.Hayvan;
+import model.Kopek;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// İNHERİTANCE(KALITIM)
+		
+		//Kalıtımın en güzel avantajı üst sınıflarda tanımlanan metot ve değişkenleri tekrar tekrar yazmaktan kurtrmasıdır.
+
+		/*
+		 * 1.B,r classı yüzlerce class miras alabilir fakat bir class sadece bir kişiyi miras alabilir.
+		 * 2.Protected erişim belirleyici nedir?
+		 * 3.Yapıcı metotların calısma yapısı nasıl oluyor?
+		 * 4.this , super , super()-->(cagırırken constructor overloading) keimelerinin kullanımı
+		 * 5.method override kavramı nedir?
+		 */
+		
+		Hayvan hayvan = new Hayvan();
+		hayvan.nefesAl();
+		System.out.println("-------------------");
+		Kopek kopek=new Kopek();
+		kopek.nefesAl();
+	}
+
+}

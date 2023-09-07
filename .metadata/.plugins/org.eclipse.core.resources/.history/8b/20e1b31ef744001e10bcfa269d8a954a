@@ -1,0 +1,49 @@
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// Çalısan sınıfını oluşturup işe başlayalım.
+		
+		System.out.println("*********Uygulamaya Hoşgeldiniz************");
+		
+		Scanner scanner=new Scanner(System.in);
+		
+		System.out.println("NO Degerini giriniz :");
+		int no =scanner.nextInt();
+		scanner.nextLine();
+		
+		System.out.println("Isim degerini giriniz :");
+		String isim=scanner.nextLine();
+		
+		
+		System.out.println("Soyisim değerini giriniz :");
+		String soyisim=scanner.nextLine();
+		
+		
+		System.out.println("Tecrube değerini gırınız :");
+		int tecrube=scanner.nextInt();
+		scanner.nextLine();
+		
+		
+		String islemler ="1-Çalısan bilgilerini goster\n"
+				+"2-zam yap\n"
+				+"3-Format At";
+				
+		System.out.println(islemler);
+		
+		switch (key) {
+		case value:
+			
+			break;
+
+		default:
+			break;
+		}
+	
+		
+
+
+	}
+
+}

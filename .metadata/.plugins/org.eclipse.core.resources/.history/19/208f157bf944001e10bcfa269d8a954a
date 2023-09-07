@@ -1,0 +1,71 @@
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// Çalısan sınıfını oluşturup işe başlayalım.
+		
+		System.out.println("*********Uygulamaya Hoşgeldiniz************");
+		
+		Scanner scanner=new Scanner(System.in);
+		
+		System.out.println("NO Degerini giriniz :");
+		int no =scanner.nextInt();
+		scanner.nextLine();
+		
+		System.out.println("Isim degerini giriniz :");
+		String isim=scanner.nextLine();
+		
+		
+		System.out.println("Soyisim değerini giriniz :");
+		String soyisim=scanner.nextLine();
+		
+		
+		System.out.println("Tecrube değerini gırınız :");
+		int tecrube=scanner.nextInt();
+		scanner.nextLine();
+		
+		Calisan calisan =new Calisan(no, isim, soyisim, tecrube, tecrube);
+		String islemler ="1-Çalısan bilgilerini goster\n"
+				+"2-zam yap\n"
+				+"3-Format At";
+				
+		System.out.println(islemler);
+		System.out.print("Secim Yapınız :");
+		int secim = scanner.nextInt();
+		scanner.nextLine();
+		
+		switch (secim) {
+		case 1:
+			calisan.calisanBilgileriGoster();
+			break;
+		case 2:
+			System.out.print("Zam degerini giriniz :");
+			int zamDegeri = scanner.nextInt();
+			scanner.nextLine();
+			calisan.zamYap(zamDegeri);
+			break;
+		case 3:
+			System.out.print("Kim format atacak ismini giriniz :");
+			String kisi = scanner.nextLine();
+			
+			System.out.print("İşletim sistemi adınızı yaznızı :");
+			String isletimSistemi = scanner.nextLine();
+			calisan.formatAt(isletimSistemi, kisi);
+			break;
+	
+
+		default:
+			System.out.println("Lütfen belirtilen aralıkta deger secımı yapınız !");
+			
+			break;
+		}
+		
+		
+	
+		
+
+
+	}
+
+}

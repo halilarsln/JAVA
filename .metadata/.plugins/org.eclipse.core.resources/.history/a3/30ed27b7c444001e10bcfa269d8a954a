@@ -1,0 +1,10 @@
+package com.halilarslan;
+//public her yerden erişebilir demek 
+public class Ogrenci {
+
+	public int id;
+	
+	public String isim;
+	
+	public String soyisim;
+}

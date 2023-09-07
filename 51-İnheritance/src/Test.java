@@ -1,0 +1,22 @@
+import javax.naming.BinaryRefAddr;
+
+import model.Hayvan;
+import model.Kopek;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// İNHERİTANCE(KALITIM)
+		
+		//Kalıtımın en güzel avantajı üst sınıflarda tanımlanan metot ve değişkenleri tekrar tekrar yazmaktan kurtrmasıdır.
+
+	
+		
+		Hayvan hayvan = new Hayvan();
+		hayvan.nefesAl();
+		System.out.println("-------------------");
+		Kopek kopek=new Kopek();
+		kopek.nefesAl();
+	}
+
+}

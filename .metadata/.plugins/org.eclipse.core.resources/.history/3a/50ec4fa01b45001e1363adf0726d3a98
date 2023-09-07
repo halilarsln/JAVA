@@ -1,0 +1,11 @@
+
+public class Ogrenci {
+	private Long id;
+	
+	private String ad;
+	
+	private String soyad;
+	
+	
+
+}

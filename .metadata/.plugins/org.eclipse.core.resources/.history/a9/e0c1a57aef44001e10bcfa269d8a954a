@@ -1,0 +1,24 @@
+import com.halilarslan.Ogrenci;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+
+		//Bir sınıf var.Biz bir sınıfın içindeki değişkenlere erişebimek içiN
+		//o classtan nesne türetmemiz gerekiyor. NEW
+		
+		Ogrenci ogrenci1 = new Ogrenci();
+		
+		ogrenci1.id=5;
+		ogrenci1.isim="HALIL";
+		ogrenci1.soyisim="ARSLAN";
+		
+		System.out.println("Ögrencinin Bilgileri");
+		System.out.println("ID:"+ogrenci1.id);
+		System.out.println("İsim:"+ ogrenci1.isim);
+		System.out.println("Soyisim:" +ogrenci1.soyisim);
+
+	}
+
+}
